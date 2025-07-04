@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#FAFAFA"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome Admin!"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Add more admin features here -->
+    <Button
+        android:id="@+id/btnAddProduct"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="➕ Add Product"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FF4081"
+        android:layout_marginBottom="16dp"
+        android:onClick="onAddProductClick"/>
+
+    <Button
+        android:id="@+id/btnViewProducts"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="📦 View Products"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#3F51B5"
+        android:layout_marginBottom="16dp"
+        android:onClick="onViewProductsClick"/>
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Logout"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#E91E63"
+        android:onClick="onLogoutClick"/>
+
+    <Button
+        android:id="@+id/btnManageUsers"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="👥 Manage Users"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#009688"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>

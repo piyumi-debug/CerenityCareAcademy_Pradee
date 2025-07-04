@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+        <color name="pink_background">#FFF1F6</color>
+        <color name="pink_text_primary">#D81B60</color>
+        <color name="pink_text_secondary">#A9A9A9</color>
+        <color name="pink_accent">#F06292</color>
+        <color name="pink_dark">#C2185B</color>
+        <color name="pink_card_border">#FFD1DC</color>
+    <color name="selector_nav_item">#FF4081</color>
+
+
+</resources>
